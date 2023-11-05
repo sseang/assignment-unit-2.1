@@ -48,6 +48,7 @@ console.log(allowedPets)
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 let result;
+
 if (adventurous === true) {
   result = "Adventures are great!";
 }
@@ -63,6 +64,7 @@ console.log(result)
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 let diceRoll = "Try again later.";
+
 if (luckyNumber === 2 && adventurous === true) {
   diceRoll =  "Roll the dice!"
 }
@@ -76,8 +78,20 @@ console.log(diceRoll)
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+let petStatus;
+if (pets < allowedPets) {
+  petStatus = "I can have more pets"
+}
 
+if (pets = allowedPets) {
+  petStatus = "I have enough pets"
+}
 
+else if (pets > allowedPets) {
+  petStatus = "Oh no, I have too many pets!"
+}
+
+console.log(petStatus)
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
