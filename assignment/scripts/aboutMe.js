@@ -24,9 +24,9 @@ console.log(luckyNumber);
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
 
-//let introduction = 'My name is' + ' ' + fullName + ', and I think' + ' ' + luckyNumber + ' ' + 'is a winner!';
+let introduction = 'My name is' + ' ' + fullName + ', and I think' + ' ' + luckyNumber + ' ' + 'is a winner!';
 //cleaner version
-let introduction = `My name is ${fullName}, and I think ${luckyNumber} is a winner!`;
+//let introduction = `My name is ${fullName}, and I think ${luckyNumber} is a winner!`;
 console.log(introduction);
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
@@ -131,6 +131,9 @@ if (pets > friendsPets) {
 
 
 // 16 - Make a variable called `luckyResult`
+
+let luckyResult;
+
 //      Write a *switch* statement that sets `luckyResult` to:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
@@ -138,6 +141,8 @@ if (pets > friendsPets) {
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+
+
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
