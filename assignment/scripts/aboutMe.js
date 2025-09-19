@@ -13,14 +13,14 @@ console.log(lastName);
 let fullName = firstName + ' ' + lastName;
 console.log(fullName);
 
-// 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
+// 4 - Create a variable called `luckyNumber` and assign it the value of your lucky luckyNumber.
 //     Console log the value of `luckyNumber`
 const luckyNumber = 1217;
 console.log(luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
-//     'My name is (full name), and I think (lucky number) is a winner!'.
+//     'My name is (full name), and I think (lucky luckyNumber) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
 
@@ -47,12 +47,12 @@ console.log(adventurous);
 const food = 'Seafood';
 console.log(food);
 
-// 8 - Create a variable called `pets` and set it to the value of the number of pets you have
+// 8 - Create a variable called `pets` and set it to the value of the luckyNumber of pets you have
 //     Console log the value of `pets`
 let pets = 1;
 console.log(pets);
 
-// 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
+// 9 - Create a variable called `friendsPets` and assign it the value of the luckyNumber of pets your friend has
 let friendsPets = 2;
 console.log(friendsPets);
 
@@ -60,7 +60,7 @@ console.log(friendsPets);
 pets = 3;
 console.log(pets);
 
-// 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+// 11 - Create a constant variable called `allowedPets` and set it to a luckyNumber value of your choice
 const allowedPets = 4;
 console.log(allowedPets);
 
@@ -131,13 +131,30 @@ console.log(mostPets);
 // 16 - Make a variable called `luckyResult`
 
 //      Write a *switch* statement that sets `luckyResult` to:
-//      "First is the worst" if your lucky number is 1
-//      "Second is the best" if your lucky number is 2
-//      "Third is the one with the polka dot dress" if your lucky number is 3
+//      "First is the worst" if your lucky luckyNumber is 1
+//      "Second is the best" if your lucky luckyNumber is 2
+//      "Third is the one with the polka dot dress" if your lucky luckyNumber is 3
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
 let luckyResult;
+const luckyNumb = 3;
+
+switch (luckyResult) {
+  case luckyNumb === 1:
+    luckyResult = 'First is the worst';
+    break;
+  case luckyNumb === 2:
+    luckyResult = 'Second is the best';
+    break;
+  case luckyNumb === 3:
+    luckyResult = 'Third is the one with the polka dot dress';
+    break;
+  default:
+    luckyResult = 'Luck is what happens when preparation meets opportunity';
+}
+
+console.log(luckyResult);
 // Finish STRETCH goal
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
