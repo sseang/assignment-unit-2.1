@@ -131,7 +131,7 @@ console.log(mostPets);
 // 16 - Make a variable called `luckyResult`
 
 //      Write a *switch* statement that sets `luckyResult` to:
-//      "First is the worst" if your lucky luckyNumber is 1
+//      "First is the worst" if your lucky luckyNumber    is 1
 //      "Second is the best" if your lucky luckyNumber is 2
 //      "Third is the one with the polka dot dress" if your lucky luckyNumber is 3
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
@@ -158,7 +158,13 @@ console.log(luckyResult);
 // Finish STRETCH goal
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-
+const adventurous2 = true;
+function newResult(adventurous2) {
+  return adventurous2 ? 'Adventures are great!' : 'How about we stay home?';
+}
+console.log(newResult(true));
+console.log(newResult(false));
+console.log(newResult(null));
 // DO NOT MODIFY
 // Used for automated testing
 try {
